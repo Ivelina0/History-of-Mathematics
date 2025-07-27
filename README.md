@@ -6,7 +6,7 @@ This repository supports the Applications chapter from the QMUL booklet **“Law
 
 ## What’s Included
 
-The `notebooks/` and `code/` folders include simulations and visualisations for the following applications in the chapter:
+The `notebook/` includes examples of simulations and visualisations for the following applications in the chapter mentioned:
 
 ### Laws of Large Numbers (LLN)
 - **Symmetric Random Walk**: Shows how the average position of a *drunk* walker converges to 0.
