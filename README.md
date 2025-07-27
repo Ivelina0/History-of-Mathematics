@@ -1,6 +1,8 @@
 # History of Mathematics
 
-This repository supports the Applications chapter from the QMUL booklet **“Laws, Limits, and Randomness: A Mathematical History of Probability”**. It contains interactive Python examples that demonstrate foundational results like the **Law of Large Numbers (LLN)** and the **Central Limit Theorem (CLT)**, as they emerged through the historical development of probability theory.
+This repository supports the Applications chapter from the QMUL booklet **“Laws, Limits, and Randomness: A Mathematical History of Probability”** - to be updated soon. It contains interactive Python examples that demonstrate foundational results like the **Law of Large Numbers (LLN)** and the **Central Limit Theorem (CLT)**, as they emerged through the historical development of probability theory.
+
+[Read the full document (PDF)](https://www.seresearch.qmul.ac.uk/content/pce/ediresources/files/History_of_Maths_QMUL_2024.pdf)
 
 ## What’s Included
 
