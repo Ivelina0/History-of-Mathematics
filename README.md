@@ -28,7 +28,7 @@ The `notebook/` includes examples of simulations and visualisations for the foll
 - Python ≥ 3.7
 - NumPy
 - Matplotlib
-- (Optional) Jupyter Notebook for interactive exploration
+- Jupyter Notebook
 
 ## Getting Started
 
