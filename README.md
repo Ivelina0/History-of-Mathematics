@@ -10,7 +10,8 @@ The `notebook/` includes examples of simulations and visualisations for the foll
 
 ### Laws of Large Numbers (LLN)
 - **Symmetric Random Walk**: Shows how the average position of a *drunk* walker converges to 0.
-- **Stochastic Gradient Descent (SGD)**: Demonstrates that even noisy gradients still converge to a global minimum.
+- **Stochastic Gradient Descent (SGD)**: Demonstrates that even noisy gradients still converge to a global minimum, for convex or pseudoconvex functions - note that most deep learning problems are non-convex and hence converge to the global minimum is not guaranteed. Although [SGD Converges to Global Minimum in Deep Learning via Star-convex Path
+](https://arxiv.org/abs/1901.00451#:~:text=2%20Jan%202019%5D-,SGD%20Converges%20to%20Global%20Minimum%20in%20Deep%20Learning%20via%20Star,manner%20to%20a%20global%20minimum.) shows convergene of SGD follows an iterationwise star-convex path in some cases.  
 - **Markov Chain Monte Carlo (MCMC)**: Empirical Means (after some burn-in samples are removed) converge to Expected Values under repeated sampling - when optimising model parameters.
 - **Monte Carlo Integration**: Averages of random function evaluations converge to an integral.
 
