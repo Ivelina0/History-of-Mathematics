@@ -1,6 +1,6 @@
 # History of Mathematics
 
-This repository supports the Applications chapter from the QMUL booklet **“Laws, Limits, and Randomness: A Mathematical History of Probability”** - to be updated soon. It contains interactive Python examples that demonstrate foundational results like the **Law of Large Numbers (LLN)** and the **Central Limit Theorem (CLT)**, as they emerged through the historical development of probability theory.
+This repository supports the Applications chapter from the QMUL booklet **“Laws, Limits, and Randomness: A Mathematical History of Probability”** - final version 2025 now updated. It contains interactive Python examples that demonstrate foundational results like the **Law of Large Numbers (LLN)** and the **Central Limit Theorem (CLT)**, as they emerged through the historical development of probability theory.
 
 [Read the full document (PDF)](https://www.seresearch.qmul.ac.uk/content/pce/ediresources/files/History_of_Maths_QMUL_2025.pdf)
 
@@ -23,6 +23,13 @@ The `notebook/` includes examples of simulations and visualisations for the foll
 ### Heavy-Tailed Phenomena
 - **St. Petersburg Paradox**: Illustrates when LLN and CLT break down due to infinite expectation - demonstrated the start of utility theory.
 - **Comparison with Geometric Game**: Changing the Payoff structure of the game changes the effects of exponential vs. bounded tails.
+
+### Markov Chain Text Analysis 
+This notebook recreates Andrey Markov’s classic experiment on **vowel/consonant dependence** in Alexander Pushkin’s *Eugene Onegin*. It maps letters to two states — **V** (vowel) and **C** (consonant) — and tests whether successive letters are independent or exhibit Markovian dependence.
+
+- An example of some Russian text. You can change it to other languages or even try it out on other data - any data where you can define a small set of "states" and observe sequences over time, you can do a transition-matrix analysis on. E.g. DNA and RNA bases, protein structures, client churn analysis, finanical volatility regimes, credit rating analysis, sports, and so on. 
+- You can also try to perform an **independence check** using the chi-square test on adjacent pairs.
+- Using the transition matrix you can also try to **simulate** a V/C sequence from the fitted chain, and create "new text" data.
 
 ## Requirements
 
