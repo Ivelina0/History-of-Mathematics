@@ -25,7 +25,7 @@ The `notebook/` includes examples of simulations and visualisations for the foll
 - **Comparison with Geometric Game**: Changing the Payoff structure of the game changes the effects of exponential vs. bounded tails.
 
 ### Markov Chain Text Analysis 
-This notebook recreates Andrey Markov’s classic experiment on **vowel/consonant dependence** in Alexander Pushkin’s *Eugene Onegin*. It maps letters to two states — **V** (vowel) and **C** (consonant) — and tests whether successive letters are independent or exhibit Markovian dependence.
+This notebook recreates Andrey Markov’s classic experiment on **vowel/consonant dependence** in Alexander Pushkin’s *Eugene Onegin*. It maps letters to two states - **V** (vowel) and **C** (consonant) - and tests whether successive letters are independent or exhibit Markovian dependence.
 
 - An example of some Russian text. You can change it to other languages or even try it out on other data - any data where you can define a small set of "states" and observe sequences over time, you can do a transition-matrix analysis on. E.g. DNA and RNA bases, protein structures, client churn analysis, finanical volatility regimes, credit rating analysis, sports, and so on. 
 - You can also try to perform an **independence check** using the chi-square test on adjacent pairs.
